@@ -1,0 +1,223 @@
+body{
+	background-image:url(forest.png);
+	background-size:cover;
+	background-attachment:fixed;
+	overflow: hidden;
+}
+*{
+	margin:0;
+	padding: 0;	
+}
+.a{
+	width:100%;
+	height:50;
+	position:relative;
+}
+.a1{
+	width:8%;
+	height:50;
+	border:solid 1px black;
+	position:absolute;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.a2{
+	width:8%;
+	height:50;
+	border:solid 1px black;
+	position:absolute;
+	left:20%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.bananas{
+	width:4%;
+	position:absolute;
+	left:5%;
+}
+.q6{
+	width:100;
+	height:100;
+	position:absolute;
+	left:65%;
+	top:400px;
+}
+.rr{
+	opacity:0;
+}
+.q7{
+	width:40%;
+	position:absolute;
+	left:30%;
+	top:100px;
+	opacity:0;
+}
+.q8{
+	width:40%;
+	position:absolute;
+	left:30%;
+	top:300px;
+	opacity:0;
+}
+#button{
+	width: 150px;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	background-color: red;
+	position: absolute;
+	top: 330px;
+	left: 650px;
+	display: none;
+}
+#button:hover{
+	cursor: pointer;
+	background-color: grey;
+}
+
+
+.b{
+	width:100%;
+	height:50;
+	position:relative;
+}
+.b1{
+	width:8%;
+	height:50;
+	border:solid 1px black;
+	position:absolute;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	background-color: rgb(183, 240, 183);
+}
+.b2{
+	width:8%;
+	height:50;
+	border:solid 1px black;
+	position:absolute;
+	left:20%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	background-color: rgb(236, 151, 151);
+}
+
+
+#menu{
+	background-color: rgb(68, 170, 68);
+	color: white;
+	width: 200px;
+	padding: 15px;
+	position: absolute;
+	left: 650px;
+	border: none;
+	top: 30px;
+	font-size: 20px;
+}
+
+#game{
+	display: none;
+}
+
+
+#start{
+	width: 700px;
+	height: 600px;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+}
+
+.buttons{
+	margin-left: 100px;
+	margin-top: 30px;
+	padding: 10px;
+	font-weight: bolder;
+	border: none;
+	color: white;
+}
+#easy{
+	background-color: rgb(128, 199, 128);
+}
+#medium{
+	background-color: rgb(231, 179, 82);
+}
+#hard{
+	background-color: rgb(233, 92, 92);
+}
+.buttons:hover{
+	cursor: pointer;
+}
+#easy:hover{
+	background-color: rgb(53, 73, 53);
+}
+#medium:hover{
+	background-color: rgb(158, 118, 43);
+}
+#hard:hover{
+	background-color: rgb(173, 57, 57);
+}
+
+#monkey1, #monkey2{
+	width: 250px;
+	height: 300px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 70px;
+	overflow: hidden;
+}
+#monkey1{
+	background-color: red;
+}
+#monkey2{
+	background-color: yellow;
+}
+#monkeyy1{
+	width: 100%;
+	margin-top: 10%;
+}
+#monkeyy2{
+	width: 95%;
+	margin-top: 13%;
+	margin-left: 5px;
+}
+#play{
+	position: absolute;
+	top: 510px;
+	right: 255px;
+	border: none;
+	background-color: rgb(125, 194, 125);
+	padding: 10px;
+	font-size: 30px;
+	color: white;
+	width: 200px;
+	font-weight: bolder;
+}
+#play:hover{
+	cursor: pointer;
+	background-color: rgb(84, 158, 84);
+}
+#text{
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	top: 100px;
+	/* background-color: red; */
+	text-align: center;
+	font-size: 25px;
+}
+.border{
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+@keyframes circle {
+	from { transform: rotateY(0deg); }
+	to { transform: rotateY(360deg); }
+}
